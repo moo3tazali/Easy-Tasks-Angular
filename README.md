@@ -1,27 +1,93 @@
-# FirstDemo
+# Easy-Tasks-Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+This project is a basic to-do application built with Angular.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Task Management**
 
-## Code scaffolding
+   - Add new tasks.
+   - Edit existing tasks.
+   - Delete tasks.
+   - Mark tasks as completed.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. **User Interface**
 
-## Build
+   - Responsive design.
+   - Intuitive task list display.
+   - Visual indicators for task status (completed/pending).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. **Data Persistence**
 
-## Running unit tests
+   - Local storage for saving tasks.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4. **Components**
+   - Task list component.
+   - Task item component.
+   - Task form component.
 
-## Running end-to-end tests
+## Getting Started
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Prerequisites
 
-## Further help
+- Node.js
+- Angular CLI
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/moo3tazali/Easy-Tasks-Angular.git
+   cd Easy-Tasks-Angular
+
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+### Running the App
+
+1. Start the development server:
+
+   ```sh
+   ng serve
+   ```
+
+2. Open your browser and navigate to `http://localhost:4200/`.
+
+### Building the App
+
+To build the project, run:
+
+```sh
+ng build
+```
+
+The build artifacts will be stored in the `dist/` directory.
+
+### Running Tests
+
+- Unit tests:
+
+  ```sh
+  ng test
+  ```
+
+- End-to-end tests:
+
+  ```sh
+  ng e2e
+  ```
+
+### Further Help
+
+For more help on Angular CLI, use:
+
+```sh
+ng help
+```
+
+Visit the [Angular CLI Overview and Command Reference](https://angular.io/cli) page for detailed documentation.
