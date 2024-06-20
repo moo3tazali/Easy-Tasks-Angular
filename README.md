@@ -1,6 +1,6 @@
 # Easy-Tasks-Angular
 
-This project is a basic to-do application built with Angular.
+This project is a basic to-do application built with Angular V18.
 
 ## Features
 
